@@ -1,0 +1,55 @@
+{
+  "name": "@civ-clone/library-world",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:civ-clone/library-world.git",
+  "keywords": [
+    "typescript",
+    "civilization"
+  ],
+  "author": "dom111 <dom111@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run ts:compile && npm run prettier:format",
+    "prettier:check": "prettier --config .prettierrc '**/*.ts'",
+    "prettier:format": "prettier --config .prettierrc '**/*.ts' --write",
+    "ts:compile": "tsc --build tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.0",
+    "prettier": "^2.0.0",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "@civ-clone/base-terrain-arctic": "^0.1.0",
+    "@civ-clone/base-terrain-desert": "^0.1.0",
+    "@civ-clone/base-terrain-feature-coal": "^0.1.0",
+    "@civ-clone/base-terrain-feature-fish": "^0.1.0",
+    "@civ-clone/base-terrain-feature-game": "^0.1.0",
+    "@civ-clone/base-terrain-feature-gems": "^0.1.0",
+    "@civ-clone/base-terrain-feature-gold": "^0.1.0",
+    "@civ-clone/base-terrain-feature-horse": "^0.1.0",
+    "@civ-clone/base-terrain-feature-oasis": "^0.1.0",
+    "@civ-clone/base-terrain-feature-oil": "^0.1.0",
+    "@civ-clone/base-terrain-feature-seal": "^0.1.0",
+    "@civ-clone/base-terrain-feature-shield": "^0.1.0",
+    "@civ-clone/base-terrain-forest": "^0.1.0",
+    "@civ-clone/base-terrain-grassland": "^0.1.0",
+    "@civ-clone/base-terrain-hills": "^0.1.0",
+    "@civ-clone/base-terrain-jungle": "^0.1.0",
+    "@civ-clone/base-terrain-mountains": "^0.1.0",
+    "@civ-clone/base-terrain-ocean": "^0.1.0",
+    "@civ-clone/base-terrain-plains": "^0.1.0",
+    "@civ-clone/base-terrain-river": "^0.1.0",
+    "@civ-clone/base-terrain-swamp": "^0.1.0",
+    "@civ-clone/base-terrain-tundra": "^0.1.0",
+    "@civ-clone/base-terrain-yield-food": "^0.1.0",
+    "@civ-clone/base-terrain-yield-production": "^0.1.0",
+    "@civ-clone/base-terrain-yield-trade": "^0.1.0",
+    "@civ-clone/base-tile-improvement-irrigation": "^0.1.0",
+    "@civ-clone/base-tile-improvement-mine": "^0.1.0",
+    "@civ-clone/base-tile-improvement-pollution": "^0.1.0",
+    "@civ-clone/base-tile-improvement-railroad": "^0.1.0",
+    "@civ-clone/base-tile-improvement-road": "^0.1.0"
+  }
+}

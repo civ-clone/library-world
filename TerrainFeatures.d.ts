@@ -1,0 +1,10 @@
+export { Coal } from './TerrainFeatures/Coal';
+export { Fish } from './TerrainFeatures/Fish';
+export { Game } from './TerrainFeatures/Game';
+export { Gems } from './TerrainFeatures/Gems';
+export { Gold } from './TerrainFeatures/Gold';
+export { Horse } from './TerrainFeatures/Horse';
+export { Oasis } from './TerrainFeatures/Oasis';
+export { Oil } from './TerrainFeatures/Oil';
+export { Seal } from './TerrainFeatures/Seal';
+export { Shield } from './TerrainFeatures/Shield';

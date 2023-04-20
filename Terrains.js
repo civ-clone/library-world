@@ -1,0 +1,28 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Tundra = exports.Swamp = exports.River = exports.Plains = exports.Ocean = exports.Mountains = exports.Jungle = exports.Hills = exports.Grassland = exports.Forest = exports.Desert = exports.Arctic = void 0;
+var Arctic_1 = require("./Terrains/Arctic");
+Object.defineProperty(exports, "Arctic", { enumerable: true, get: function () { return Arctic_1.Arctic; } });
+var Desert_1 = require("./Terrains/Desert");
+Object.defineProperty(exports, "Desert", { enumerable: true, get: function () { return Desert_1.Desert; } });
+var Forest_1 = require("./Terrains/Forest");
+Object.defineProperty(exports, "Forest", { enumerable: true, get: function () { return Forest_1.Forest; } });
+var Grassland_1 = require("./Terrains/Grassland");
+Object.defineProperty(exports, "Grassland", { enumerable: true, get: function () { return Grassland_1.Grassland; } });
+var Hills_1 = require("./Terrains/Hills");
+Object.defineProperty(exports, "Hills", { enumerable: true, get: function () { return Hills_1.Hills; } });
+var Jungle_1 = require("./Terrains/Jungle");
+Object.defineProperty(exports, "Jungle", { enumerable: true, get: function () { return Jungle_1.Jungle; } });
+var Mountains_1 = require("./Terrains/Mountains");
+Object.defineProperty(exports, "Mountains", { enumerable: true, get: function () { return Mountains_1.Mountains; } });
+var Ocean_1 = require("./Terrains/Ocean");
+Object.defineProperty(exports, "Ocean", { enumerable: true, get: function () { return Ocean_1.Ocean; } });
+var Plains_1 = require("./Terrains/Plains");
+Object.defineProperty(exports, "Plains", { enumerable: true, get: function () { return Plains_1.Plains; } });
+var River_1 = require("./Terrains/River");
+Object.defineProperty(exports, "River", { enumerable: true, get: function () { return River_1.River; } });
+var Swamp_1 = require("./Terrains/Swamp");
+Object.defineProperty(exports, "Swamp", { enumerable: true, get: function () { return Swamp_1.Swamp; } });
+var Tundra_1 = require("./Terrains/Tundra");
+Object.defineProperty(exports, "Tundra", { enumerable: true, get: function () { return Tundra_1.Tundra; } });
+//# sourceMappingURL=Terrains.js.map
